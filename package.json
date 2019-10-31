@@ -1,0 +1,30 @@
+{
+  "name": "iota-mam-channel-fork",
+  "version": "1.0.0",
+  "description": "Example code for a IOTA MAM channel fork.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominic22/iota-mam-channel-fork.git"
+  },
+  "keywords": [
+    "iota",
+    "mam",
+    "channel",
+    "fork"
+  ],
+  "author": "dominic22",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dominic22/iota-mam-channel-fork/issues"
+  },
+  "homepage": "https://github.com/dominic22/iota-mam-channel-fork#readme",
+  "dependencies": {
+    "@iota/converter": "^1.0.0-beta.21",
+    "@iota/mam": "^0.7.3"
+  }
+}
